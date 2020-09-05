@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    color: whitesmoke;
+    background-color: black;
+    display: flexbox;
+}
