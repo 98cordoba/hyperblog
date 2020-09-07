@@ -2,9 +2,17 @@ body{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: grey;
+    margin: 0;
+    padding: 0;
 }
-
-h1{
+.container{
+    width: 70%;
+    padding: 1em;
+    text-align: center;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+}
+.container h1{
     color: whitesmoke;
     background-color: black;
     text-decoration: underline;
