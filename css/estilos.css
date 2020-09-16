@@ -35,3 +35,10 @@ body{
     text-shadow: darkred;
     box-shadow: darkred 5;
 }
+
+.footer{
+    background-color: black;
+    color: darkred;
+    text-align: right;
+    padding: 0.5em;
+}
