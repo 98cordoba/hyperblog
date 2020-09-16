@@ -1,15 +1,17 @@
 body{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: grey;
+    background-color: darkslategray;
     margin: 0;
     padding: 0;
 }
 .container{
     width: 70%;
-    padding: 1em;
+    
     text-align: center;
-    border: 5px solid #ddd;
+    /*border: 5px solid #ddd;
+    padding: 1em;
+    */
     margin: 0 auto;
 }
 .container h1{
@@ -23,7 +25,7 @@ body{
 }
 .container .post p{
     font-size: 18px;
-    color: whitesmoke;
+    color: black;
 
 }
 .cabecera{
@@ -31,7 +33,18 @@ body{
     color: darkred;
     font-size: 28px;
     font-family: fantasy;
-    padding: 10px auto;
-    text-shadow: darkred;
-    box-shadow: darkred 5;
+    padding: 0.5em;
+    margin: 0;
+    /*text-shadow: darkred;
+    box-shadow: darkred 5;*/
+}
+
+.post{
+    background-color: whitesmoke;
+    padding: 1em;
+}
+
+.container .post p{
+    text-align: left;
+    font-size: 2em;
 }
